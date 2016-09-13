@@ -10,7 +10,8 @@ void draw(){
   background(240,128,128 );
   fill(0,10);
   //rect(0,0,width, height);
-  
+
+//moving bubbles
 fill(255);
  ellipse(random(width), random(height), 25, 25); 
   
@@ -18,7 +19,6 @@ fill(255);
 fill(139,69,19);
 ellipse(300, 320, 300, 500);
   
-
 //face
   smooth();
   fill(234,192,134);
@@ -30,7 +30,6 @@ ellipse(300, 320, 300, 500);
    endShape(CLOSE);
   
 //mouth shape
-  // translate(mouseX, mouseY);
   fill(220,20,60);
   stroke(0);
   strokeWeight(2);
@@ -52,7 +51,6 @@ arc(250, 225, 20, 20, 0, PI, CHORD);
 arc(350, 225, 20, 20, 0, PI, CHORD);
 
 // inner 
-
 arc(350, 230, 6, 6, 0, 2*PI, CHORD);
 arc(250, 230, 6, 6, 0, 2*PI, CHORD);
 
@@ -64,7 +62,7 @@ arc(251, 230, 2, 2, 0, 2*PI, CHORD);
   fill(100,69,19);
   stroke(0);
   strokeWeight(2);
-   int y = 210;
+  int y = 210;
   int x = 300;
   beginShape();
   //outer tip
